@@ -1,7 +1,11 @@
+"""Food for Snake Game"""
+
 from turtle import Turtle
 import random
 
+
 class Food(Turtle):
+    """Food class for Snake Game"""
 
     def __init__(self):
         super().__init__()
@@ -11,8 +15,8 @@ class Food(Turtle):
         self.color("blue")
         self.speed(0)
 
-
     def generate_food(self):
+        """Generate food at random position"""
         rand_x = random.randint(-280, 280)
         rand_y = random.randint(-180, 180)
         self.goto(rand_x, rand_y)

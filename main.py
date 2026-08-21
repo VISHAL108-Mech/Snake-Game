@@ -1,8 +1,10 @@
+"""Snake Game"""
+
+import time
 from turtle import Screen
 from snake import Snake
 from food import Food
 from scoring import Score
-import time
 
 screen = Screen()
 screen.title("Snake Game")
@@ -33,7 +35,12 @@ while start_game:
         scoreboard.calculate_score()
 
     # Snake collision with wall.
-    if snake.head.xcor() > 285 or snake.head.xcor() < -285 or snake.head.ycor() > 185 or snake.head.ycor() < -185:
+    if (
+        snake.head.xcor() > 285
+        or snake.head.xcor() < -285
+        or snake.head.ycor() > 185
+        or snake.head.ycor() < -185
+    ):
         start_game = False
         scoreboard.game_over()
 
