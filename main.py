@@ -41,14 +41,14 @@ while start_game:
         or snake.head.ycor() > 185
         or snake.head.ycor() < -185
     ):
-        start_game = False
-        scoreboard.game_over()
+        scoreboard.reset()
+        snake.reset()
 
     # Head and tail collision.
     for snake_body in snake.snake_list[1:]:
         if snake.head.distance(snake_body) < 10:
-            start_game = False
-            scoreboard.game_over()
+            scoreboard.reset()
+            snake.reset()
 
 
 screen.exitonclick()
