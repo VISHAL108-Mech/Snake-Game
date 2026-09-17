@@ -8,7 +8,7 @@ A classic **Snake Game** built from scratch in Python using the built-in `turtle
 
 ## 🎮 Demo
 
-<img width="952" height="545" alt="Screenshot 2026-09-17 211043" src="https://github.com/user-attachments/assets/296d6c73-0a93-4675-a3c9-1dc7675cfc1c" />
+<img width="500" height="350" alt="Screenshot 2026-09-17 211043" src="https://github.com/user-attachments/assets/296d6c73-0a93-4675-a3c9-1dc7675cfc1c" />
 
 
 ---
