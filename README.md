@@ -171,7 +171,7 @@ for snake_body in snake.snake_list[1:]:
 
 ## 👤 Developer
 
-VISHAL YADAV
+**VISHAL YADAV**
 - GitHub: https://github.com/VISHAL108-Mech
 - LinkedIn: www.linkedin.com/in/vishal-yadav-2a91a7428
 - Email: vy4122000@gmail.com
